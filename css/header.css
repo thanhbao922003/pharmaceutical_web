@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Lalezar";
+  src: url(../font/Lalezar/Lalezar-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(../font/Inter/Inter-VariableFont_slnt\wght.ttf);
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  background-color: hsl(213, 55%, 74%);
+  height: 0;
+}
+
+.banner-header {
+  display: block;
+  width: 100vw;
+  height: 8vw;
+  top: 0;
+  background-image: url(/img/header/keo\ Background\ Removed.png);
+  background-size: 6.6%;
+  background-repeat: no-repeat;
+  background-position-x: 54%;
+}
+
+.banner-header img {
+  width: fit-content;
+  height: 8vw;
+  flex-shrink: 0;
+  display: block;
+  margin-left: 12%;
+  z-index: 2;
+}
